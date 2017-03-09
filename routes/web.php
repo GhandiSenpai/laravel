@@ -14,3 +14,23 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('user51/1', function()
+{
+    return response()->json([
+         'userid' => '1',
+         'name' => 'Simon',
+         'country' => 'Austria'
+        ]);
+
+});
+
+Route::get('user54/1', function()
+{
+    return response()->json([
+         'userid' => '1',
+         'firstname' => 'Simon',
+         'country' => 'Austria'
+        ]);
+});
+

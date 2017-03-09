@@ -1,3 +1,15 @@
+<?php
+
+$data = array("first_name" => "simi");
+
+echo json_encode( $data );
+
+exit;
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="{{ config('app.locale') }}">
     <head>
@@ -79,7 +91,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Simis Laravel @<?php echo date("d.m.Y H:i:s", time()); ?>
                 </div>
 
                 <div class="links">
